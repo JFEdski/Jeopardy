@@ -14,15 +14,32 @@ h1 {
     color: yellow;
     font-family: 'Anton', sans-serif;
     font-size: 30px;
+    margin: 0;
+}
+
+h2 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(156, 137, 25);
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin: 0;
 }
 
 table {
-    width: 90%;
+    width: 80%;
     text-align: center;
     color: yellow;
     text-decoration: none;
     text-emphasis: bold;
     background-color: blue;
+}
+
+td:hover {
+    background-color: blueviolet;
+    color:rgba(211, 216, 185, 0.877)
 }
 
 footer {
@@ -56,7 +73,27 @@ footer {
     justify-content: center;
 }
 
+.button {
+    display: inline;
+    align-items: center;
+}
+
 button:hover {
     color: white;
     background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    
+}
+
+#guess {
+    float: inline-start;
+}
+
+#pass {
+    float: inline-end;
 }
