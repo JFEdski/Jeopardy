@@ -21,16 +21,30 @@
     </table>
     <br>
     <div class="container">
-        <form>
+        <form id="input">
             <input placeholder="Type Answer Here"/>
         </form>
         <br>
-        <button class="guess">GUESS</button><button class="pass">PASS</button>
+        <div>
+            <button id="guess">GUESS</button>
+            <button id="pass">PASS</button>
+        </div>
     </div>
-    <div href="./firstRound.html">
-        <button onclick="location.href='./firstRound.html'" class="btn">Previous Round</button>
-    <div href="./finalRound.html">
-        <button onclick="location.href='./finalRound.html'" class="btn">Next Round</button>
+    <div>
+        <h3 id="player1">Player 1 Score:</h3>
+        <h3 id="player2">Player 2 Score:</h3>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="rounds">
+        <div id="prev">
+            <button onclick="location.href='./firstRound.html'">Previous Round</button>
+            <div href="./finalRound.html">
+        <div id="next">
+            <button onclick="location.href='./finalRound.html'">Next Round</button>
+        </div>
+    <br>
     <br>
     <footer>Upright Unit 1 Project Copyright [2023]</footer>
 </body>
